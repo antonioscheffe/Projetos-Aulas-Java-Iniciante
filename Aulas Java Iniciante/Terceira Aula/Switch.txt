@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class PrimeiraClasse {
+
+	public static void main(String[] args) {
+		try {
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("Qual tabuada deseja gerar?");
+			int tabuada = scanner.nextInt();
+			int fim = 10;
+			int i =1;
+			 while(i<=fim) {
+				
+				 switch(i) {
+				 case 1: System.out.printf("%d X %d = %d ;\n",i,tabuada,i*tabuada);
+				 break;
+				 }
+				 i++;
+			 }
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+public class PrimeiraClasse {
+
+	public static void main(String[] args) {
+		try {
+			MinhaClasseAbstrata.showmessage();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}
+
+public class MinhaClasseAbstrata {
+
+	public static void showmessage() {
+		System.out.println("Trabalhando com métodos státicos sempre vou precisar");
+	}
+
+}
+
+

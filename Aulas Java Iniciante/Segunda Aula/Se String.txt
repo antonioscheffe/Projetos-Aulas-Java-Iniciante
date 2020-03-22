@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class PrimeiraClasse {
+
+	public static void main(String[] args) {
+	System.out.println("Programa compara Nomes");
+	 Scanner scanner  = new Scanner(System.in);
+	 System.out.println("Digite o primeiro nome:");
+	 String primeiroNome = scanner.next();
+	 System.out.println("Digite o segundo nome:");
+	 String segundoNome = scanner.next();
+	 if(primeiroNome.equals(segundoNome)) {
+		 System.out.println("Nomes iguais");
+	 }else
+	 if(!primeiroNome.equals(segundoNome)) {
+		 System.out.println("Nomes diferentes");
+	 }
+	}
+
+}
